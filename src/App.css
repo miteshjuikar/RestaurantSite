@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar1{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 4%;
+  bottom: 8%;
+  left: 3%;
+  width: 60px;
+  border-radius: 20px;
+  transition: all 0.2s linear;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+
+  overflow: hidden;
+  background-color: rgb(148, 93, 9);
+
+  ui{
+    list-style-type: none;
+  }
+  a{
+    position: relative;
+    display: table;
+    width: 140px;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(57, 45, 45)
+  }
+
+  .icon{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 14px;
+    text-align: center;
+  }
+
+  .nav_item{
+    position: relative;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .logout{
+    position: absolute;
+    bottom: 20px;
+  }
+} 
+
+nav:hover{
+  width: 160px;
+}
+
+
+
+.mainDiv{
+  background-image: url("./restaurant.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.welcome{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  h2{  
+    font-weight: 600;
+    font-size: 40px; 
+  }
+  p{
+    font-weight: 200;
+    font-size: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+}
+
+.buttons{
+  display: flex;
+  gap: 15px;
+}
+.buttonDiv{
+  border: 1px solid black;
+  color: black;
+  padding: 5px 20px;
+  font-size: 24px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
